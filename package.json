@@ -1,0 +1,19 @@
+{
+  "name": "sunnyside-agency-landing-page-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/styles.css -o ./dist/styles.css",
+    "prod": "NODE_ENV=production npx tailwindcss -i ./src/styles.css -o ./dist/styles.css "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
